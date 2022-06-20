@@ -21,3 +21,13 @@ npm start
 # Redux Store Diagram
 
 ![](public/redux-store-diagram.jpg)
+
+# Install dependencies for React 18
+
+```bash
+npm i react@next react-dom@next --force
+```
+
+```bash
+npm start
+```
