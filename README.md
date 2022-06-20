@@ -17,3 +17,7 @@ npm install --save-exact @types/react-redux@7.1.15 axios@0.21.1 react-redux@7.2.
 ```bash
 npm start
 ```
+
+# Redux Store Diagram
+
+![](public/redux-store-diagram.jpg)
