@@ -4,9 +4,18 @@ interface RepositoriesState {
   data: string[];
 }
 
-interface Action {
-  type: string;
-  payload?: any;
+interface SearchRepositoriesAction {
+  type: 'search_repositories'
+}
+
+interface SearchRepositoriesSuccessAction {
+  type: 'search_repositories_success';
+  payload: string[];
+}
+
+interface SearchRepositoriesErrorrAction {
+  type: 'search_repositories_error';
+  payload: string;
 }
 
 const reducer = (state: RepositoriesState, action: Action): RepositoriesState => {

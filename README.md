@@ -31,3 +31,7 @@ npm i react@next react-dom@next --force
 ```bash
 npm start
 ```
+
+# Reducer Diagram
+
+![](public/reducer-diagram.jpg)
